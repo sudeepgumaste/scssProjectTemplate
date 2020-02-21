@@ -1,0 +1,1 @@
+Add fonts to this folder and add the font face in /scss/configs/_fonts.scss

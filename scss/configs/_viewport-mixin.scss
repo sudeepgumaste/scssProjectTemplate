@@ -1,0 +1,34 @@
+//for phones
+@mixin mediaXs {
+    @media screen and (max-width:600px) {
+        @content;
+    }
+}
+
+//for tablets
+@mixin mediaSm {
+    @media screen and (max-width:769px) {
+        @content;
+    }
+}
+
+// smaller tablets
+@mixin mediaMd {
+    @media screen and (max-width:1165px) {
+        @content;
+    }
+}
+
+// standard pc screens
+@mixin mediaLg {
+    @media screen and (max-width:1552px) {
+        @content;
+    }
+}
+
+// high resolution displays
+@mixin mediaXl {
+    @media screen and (min-width:1553px) {
+        @content;
+    }
+}
